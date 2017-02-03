@@ -127,6 +127,9 @@ h3, h4, h5 {
   border-bottom: 10px solid orangered; }
   .panel .panel-thumbnail:hover {
     opacity: 0.5; }
+  .panel img {
+    height: 40rem;
+    width: 100%; }
 
 .dropdown-menu {
   background-color: #f4f4f4;
