@@ -1,0 +1,29 @@
+body {
+  background-color: #233147; }
+
+.car-img img {
+  height: 20rem;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
+.car-img .img-responsive {
+  display: inline-block; }
+
+h1 {
+  margin-bottom: 5rem; }
+  h1 strong {
+    border-bottom: 4px double green; }
+
+.aa {
+  max-height: 30rem;
+  max-width: 30rem;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
+
+.dr-16 p {
+  margin-top: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem; }
+
+/*# sourceMappingURL=cars.css.map */

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Home</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+</head>
+<body>
+<div class="spin-div">
+    <div class="col-xs-12">
+        <a href="1.html">
+        <span class="glyphicon glyphicon-cd aa"></span>
+        <span class="bb hidden-xs">Defianz Racing</span>
+        <span class="hidden-sm hidden-md hidden-lg cc"><strong>Visit Our Website</strong></span>
+        <div class="text-center text-uppercase hidden-xs"><strong>Visit Our Website</strong></div>
+        </a>
+    </div>
+</div>
+<div class="sidenavbig col-xs-12" id="mySidenav">
+    <div class="col-xs-12 list" id="list">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1 class="closeButton" onclick="closeNav()"><strong>Close <span class="glyphicon glyphicon-erase"></span></strong></h1>
+            </div>
+        </div>
+        <div class="middle-content text-center">
+            <h2><strong>HOME</strong></h2>
+            <h2><strong>ACHIEVEMENTS</strong></h2>
+            <h2><strong>CREW</strong></h2>
+            <h2><strong>PARTNERSHIP</strong></h2>
+            <h2><strong>OUR CARS</strong></h2>
+            <h2><strong>GALLERY</strong></h2>
+            <h2><strong>CONTACT US</strong></h2>
+        </div>
+        <div class="end-div">
+            <h1 class="text-center text-capitalize hidden-xs">TEAM DEFIANZ RACING WEBSITE</h1>
+        </div>
+    </div>
+</div>
+<div id="side-nav" class="side-nav" onclick="openNav()">
+    <ul class="list-unstyled text-center">
+        <li>M</li>
+        <li>E</li>
+        <li>N</li>
+        <li>U</li>
+    </ul>
+</div>
+<div class="side-nav-right hidden-xs">
+    <ul class="list-unstyled text-center">
+        <li><img src="assets/12_fb_logo.svg" class="img-responsive" style="display: inline-block"></li>
+        <li><img src="assets/12_google_plus_logo.svg" class="img-responsive" style="display: inline-block"></li>
+        <li><img src="assets/12_instagram_logo.svg" class="img-responsive" style="display: inline-block"></li>
+        <li><img src="assets/12_twitter_logo.svg" class="img-responsive" style="display: inline-block"></li>
+    </ul>
+</div>
+<div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active " style="background-image: url('assets/20160703_114533.jpg')">
+        </div>
+        <div class="item" style="background-image: url('assets/20160714_105715.jpg')">
+        </div>
+        <div class="item" style="background-image: url('assets/20160716_141555.jpg')">
+        </div>
+        <div class="item" style="background-image: url('assets/IMG_1698.JPG')">
+        </div>
+        <div class="item" style="background-image: url('assets/IMG_1699.JPG')">
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
+<div class="container">
+    <div class="row card-row hidden-xs">
+        <div class="col-xs-12 ">
+            <div class="card">
+                <p>
+                Deﬁanz Racing is a 30 member group of selected students possessing extraordinary intellect and aptitude. Over a year, we conceptualise and develop a race-ready formula car and participate in competitions in India and abroad. Designing the car requires considerate decision making and trading off amongst cost, functionality, utility, manufacturability, weight and sustainability. The enduring process involving everything from theory to practical application provides exposure to real world challenges and trains the students to work within a team with a uniﬁed direction of effort. This is why the Formula SAE is widely acknowledged by many educational institutions and industrial giants as a valuable experience in the learning curve of any student, proven by the fact that the competition is attended by companies amongst the likes of Jaguar, Airbus, Land Rover, Mercedes etc.
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="navbar-inverse navbar navbar-fixed-bottom1">
+        <div class="container text-center">
+            <span class="col-sm-3 hidden-xs">Contact us : 909090909090</span>
+            <span class="col-sm-6">TEAM DEFIANZ RACING WEBSITE</span>
+            <span class="col-sm-3 pull-right hidden-xs">Whatsapp us : 090900900900</span>
+        </div>
+    </div>
+</footer>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "70%";
+        document.getElementById("list").style.display = "block";
+        document.getElementById("side-nav").style.display = "none";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("list").style.display = "none";
+        document.getElementById("side-nav").style.display = "block";
+
+    }
+
+</script>
+<script src="bootstrap-3.3.7-dist/js/jquery.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

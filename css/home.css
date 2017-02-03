@@ -1,0 +1,220 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  background-color: #253239; }
+
+.spin-div {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 10rem;
+  position: fixed;
+  z-index: 200;
+  color: black;
+  background-color: white; }
+  .spin-div a {
+    color: #253239;
+    text-decoration: none; }
+  .spin-div .bb {
+    font-size: 4rem; }
+  .spin-div .aa {
+    font-size: 40px;
+    -webkit-animation: spin 0.7s infinite linear;
+    -moz-animation: spin 0.7s infinite linear;
+    -o-animation: spin 0.7s infinite linear; }
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(360deg); } }
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg); }
+  100% {
+    -o-transform: rotate(360deg); } }
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg); }
+  100% {
+    -ms-transform: rotate(360deg); } }
+.sidenavbig {
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  height: 100vh;
+  transition: 0.5s; }
+  .sidenavbig .closeButton {
+    margin-top: 10rem; }
+  .sidenavbig .list {
+    display: none; }
+  .sidenavbig .middle-content {
+    margin-top: 10rem; }
+    .sidenavbig .middle-content h2 {
+      font-family: "Montserrat", sans-serif; }
+      .sidenavbig .middle-content h2 strong {
+        padding: 10px; }
+      .sidenavbig .middle-content h2 strong:hover {
+        background-color: black;
+        color: white; }
+  .sidenavbig .end-div {
+    margin-top: 15rem; }
+
+.side-nav {
+  margin-top: -10rem;
+  position: absolute;
+  background-color: white;
+  height: 109rem;
+  z-index: 100;
+  width: 50px;
+  transition: 0.5s linear; }
+  .side-nav ul {
+    margin-top: 45rem; }
+    .side-nav ul li {
+      font-size: 2rem;
+      font-weight: 900; }
+
+.side-nav-right {
+  margin-top: -10rem;
+  position: absolute;
+  margin-left: 96%;
+  background-color: black;
+  height: 109rem;
+  z-index: 100;
+  width: 4%;
+  transition: 0.5s linear; }
+  .side-nav-right ul {
+    margin-top: 40rem; }
+    .side-nav-right ul li {
+      padding-right: 7px;
+      padding-left: 7px;
+      margin-bottom: 1rem; }
+
+.side-nav-right:hover {
+  margin-left: 94%;
+  width: 6%;
+  transition: 0.5s linear; }
+
+.side-nav:hover {
+  width: 70px;
+  transition: 0.5s linear; }
+
+.navbar {
+  margin-bottom: 0; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  top: 0; }
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%; }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center; }
+
+.marketing h2 {
+  font-weight: normal; }
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 80px 0;
+  /* Space out the Bootstrap <hr> more */ }
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px; }
+
+/* RESPONSIVE CSS
+
+-------------------------------------------------- */
+@media (max-width: 450px) {
+  .side-nav {
+    height: 85rem; }
+    .side-nav ul {
+      margin-top: 40rem; }
+
+  .sidenavbig .middle-content h2 {
+    font-size: 20px; } }
+@media (min-width: 768px) {
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4; }
+
+  .featurette-heading {
+    font-size: 50px; } }
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px; } }
+.visit-site-div {
+  height: 10rem; }
+  .visit-site-div .cont {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .visit-site-div a {
+    margin-top: 3rem;
+    text-decoration: none;
+    font-family: Century Gothic, sans-serif;
+    color: black;
+    font-size: 4rem;
+    font-weight: 900; }
+  .visit-site-div .white-color {
+    transition: 0.5s;
+    background-color: white;
+    height: 12rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+
+.white-color:hover {
+  height: 14rem;
+  transition: height 0.5s linear; }
+
+.navbar-fixed-bottom1 {
+  padding-top: 15px;
+  z-index: 1400; }
+  .navbar-fixed-bottom1 span {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700; }
+
+.card-row {
+  z-index: 600;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .card-row .card p {
+    border-left: 5px solid #253239;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-family: Century Gothic, sans-serif; }
+
+/*# sourceMappingURL=home.css.map */

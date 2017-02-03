@@ -1,0 +1,74 @@
+body{
+  background-color: #255147;
+  transition: 2s linear;
+}
+
+.car-img{
+
+  img{
+    height: 20rem;
+    margin-bottom: 3rem;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+
+  }
+  .img-responsive{
+    display: inline-block;
+  }
+}
+
+h1{
+  strong{
+    border-bottom: 4px double green;
+  }
+  margin-bottom: 5rem;
+}
+
+.aa{
+  max-height: 30rem;
+  max-width: 30rem;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+.dr-16{
+  p{
+    margin-top: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+}
+.navbar1{
+  padding: 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.context{
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  margin-top: 5rem;
+  background-color: white;
+  padding: 10px;
+  font-weight: 700;
+  h2{
+    color:#255147;
+  }
+  .part{
+    ul{
+      li{
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  .img-sponsor{
+    .img-thumbnail{
+      height: 20rem;
+      width: 25rem;
+    }
+
+  }
+  .contact-us{
+    .img-thumbnail{
+      height: 20rem;
+      width: auto;
+    }
+  }
+}
