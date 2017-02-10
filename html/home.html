@@ -1,174 +1,372 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>HomePage</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="../css/styles.css" rel="stylesheet">
-    <link href="../css/animate.css" rel="stylesheet">
-</head>
-<body>
-<!--Script for Facebook page-->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
-<div class="drlogo hidden-xs">
-    <span class="aa">
-        <img src="../assets/logodr.jpg" class="img-circle">
-    </span>
-</div>
-<div class="container-fluid top-back-img img-responsive" style="background-image: url('../assets/20160716_141555.jpg');">
-    <div class="overlay"></div>
-    <div class="col-xs-12 col-sm-6 pull-right text-white">
-        <h1>I AM AN ARTIST, THE TRACK IS MY CANVAS, AND MY CAR IS MY BRUSH</h1>
-        <P>- GRAHAM HILL</P>
-    </div>
-    <div class="col-xs-12 team-name"><h1><strong class="pull-right">TEAM DEFIANZ</strong></h1></div>
-</div>
-<nav class="navbar navbar1" data-spy="affix" data-offset-top="900">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="color: black;">
-                <span><strong>Menu</strong></span>
-            </button>
-            <a class="navbar-brand hidden-sm" href="home.html"><p><strong class="text-danger">Team Defianz</strong></p></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="home.html">HOME</a></li>
-                <li><a href="cars.html">OUR CARS</a></li>
-                <li><a href="achievement.html">ACHIEVEMENTS</a></li>
-                <li><a href="partnership.html">OUR PARTNERS</a></li>
-                <li><a href="crew.html">CREW</a></li>
-                <li><a href="gallery.html">GALLERY</a></li>
-                <li><a href="contact.html">CONTACT US</a></li>
+    <title>Team Defianz</title>
+    <meta name="description" content="This is a website for team defianz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/ionicons.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#first">Team Defianz</a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#one"><strong>ABOUT US</strong></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#two">CARS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#three">GALLERY</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#four">Achievements</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#five">Crew</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#last">Partnership</a>
+                    </li>
                 </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
-<div class="container-fluid margin-remove">
-    <div class="show-back-parallax" style="background-image: url('../assets/IMG_1699.JPG')">
-    <div class="middle-content">
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <a href="../html/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="first">
+        <div class="overlay">
+        <div class="header-content">
+            <div class="inner pull-right">
+                <h1 class="wow fadeInRight">I AM AN ARTIST, THE TRACK IS MY CANVAS, AND MY CAR IS MY BRUSH</h1>
+                <P class="wow fadeInRight">- GRAHAM HILL</P>
+                <h1 class="wow fadeInLeft"><strong>TEAM DEFIANZ</strong></h1>
+                <hr>
+            </div>
+        </div>
+        </div>
+    </header>
+    <section class="bg-primary" id="one">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 empty-up-space hidden-xs"></div>
-                <div class="col-sm-12 empty-up-space hidden-xs"></div>
-                <div class="col-xs-12 find-text text-center"><h1>TEAM DEFIANZ RACING</h1></div>
-                <div class="col-sm-12 empty-up-space hidden-xs"></div>
-                <div class="text-center col-xs-12">
-                    <a class="btn btn-default btn-success btn-lg btn-design" href="crew.html">TEAM DEFIANZ CREW</a>
-                </div>
-                <div class="col-sm-12 empty-up-space hidden-xs"></div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="container about-us">
-        <div class="col-xs-12">
-            <h1 class="text-center"><span class="double-line">About Us</span></h1>
-        </div>
-        <div class="col-xs-12">
-            <p>Deﬁanz Racing is a 30 member group of selected students possessing extraordinary intellect and aptitude. Over a year, we conceptualise and develop a race-ready formula car and participate in competitions in India and abroad. Designing the car requires considerate decision making and trading off amongst cost, functionality, utility, manufacturability, weight and sustainability. The enduring process involving everything from theory to practical application provides exposure to real world challenges and trains the students to work within a team with a uniﬁed direction of effort. This is why the Formula SAE is widely acknowledged by many educational institutions and industrial giants as a valuable experience in the learning curve of any student, proven by the fact that the competition is attended by companies amongst the likes of Jaguar, Airbus, Land Rover, Mercedes etc.</p>
-        </div>
-        <div class="col-xs-12">
-            <p>Delhi Technological University, erstwhile Delhi College of Engineering, is one of the pioneering engineering institutions of the country. With a target of promoting research and innovation, the university runs several technical projects, many of them on a global scale. Team Deﬁanz Racing is one such international student project being run Team by the university since 2003. This team was set in motion to showcase indigenous talent, innovation and engineering expertise on a global platform. Every year a group of talented young minds, belonging to the crème de la crème of the engineering students of the nation, embark on a journey to develop a full ﬂedged formula race car, which is nothing short of a technological masterpiece.</p>
-        </div>
-    </div>
-    <div class="container our-cars-div">
-        <div class="row text-center">
-            <div class="col-xs-12">
-                <h1><span class="double-line">OUR CARS</span></h1>
-            </div>
-        </div>
-        <div class="row car-img">
-            <div class="col-xs-12 text-center">
-                <div class="col-xs-12 col-sm-4 col-md-3 text-center">
-                    <img src="../assets/1.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/2.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/3.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/4.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/5.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/6.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/7.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/8.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/9.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/10.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/12.PNG" class="img-responsive">
-                </div>
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img src="../assets/13.PNG" class="img-responsive">
+                <div class="col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 text-center">
+                    <h2 class="margin-top-0 text-primary"><strong>About Us</strong></h2>
+                    <br>
+                    <p class="text-faded wow fadeInUp">
+                    Deﬁanz Racing is a 30 member group of selected students possessing extraordinary intellect and aptitude. Over a year, we conceptualise and develop a race-ready formula car and participate in competitions in India and abroad. Designing the car requires considerate decision making and trading off amongst cost, functionality, utility, manufacturability, weight and sustainability. The enduring process involving everything from theory to practical application provides exposure to real world challenges and trains the students to work within a team with a uniﬁed direction of effort. This is why the Formula SAE is widely acknowledged by many educational institutions and industrial giants as a valuable experience in the learning curve of any student, proven by the fact that the competition is attended by companies amongst the likes of Jaguar, Airbus, Land Rover, Mercedes etc.</p>
+                    <p class="text-faded wow fadeInDown">Delhi Technological University, erstwhile Delhi College of Engineering, is one of the pioneering engineering institutions of the country. With a target of promoting research and innovation, the university runs several technical projects, many of them on a global scale. Team Deﬁanz Racing is one such international student project being run Team by the university since 2003. This team was set in motion to showcase indigenous talent, innovation and engineering expertise on a global platform. Every year a group of talented young minds, belonging to the crème de la crème of the engineering students of the nation, embark on a journey to develop a full ﬂedged formula race car, which is nothing short of a technological masterpiece.</p>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+    <section id="two">
+        <div class="container text-center">
+            <div class="image text-center wow fadeInRight col-sm-8">
+                <img src="../assets/sportive-elegant-car-side-view.svg" style="max-height: 30rem">
+            </div>
+            <div class="call-to-action col-sm-4">
+                <h2 class="text-primary">OUR CARS</h2>
+                <br>
+                <a href="../html/cars.html" target="ext" class="btn btn-default btn-lg wow flipInX">DR 16</a>
+                <br>
+                <br>
+                <a href="../html/cars.html" target="ext" class="btn btn-default btn-lg wow flipInX">DR 15</a>
+                <br><br>
+                <a href="../html/cars.html" target="ext" class="btn btn-default btn-lg wow flipInX">See Our Cars</a>
+            </div>
+        </div>
+    </section>
+    <section id="three" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="../assets/20160703_114533.jpg">
+                        <img src="../assets/20160703_114533.jpg" class="img-responsive" alt="Image 1">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="../assets/20160714_105715.jpg">
+                        <img src="../assets/20160714_105715.jpg" class="img-responsive" alt="Image 2">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				<div class="clearfix hidden-lg"> </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="../assets/20160716_141555.jpg">
+                        <img src="../assets/20160716_141555.jpg" class="img-responsive" alt="Image 3">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="../assets/IMG_1698.JPG">
+                        <img src="../assets/IMG_1698.JPG" class="img-responsive" alt="Image 4">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				<div class="clearfix hidden-lg"> </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="../assets/IMG_1699.JPG">
+                        <img src="../assets/IMG_1699.JPG" class="img-responsive" alt="Image 5">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="../assets/IMG_1705.JPG">
+                        <img src="../assets/IMG_1705.JPG" class="img-responsive" alt="Image 6">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid" id="four">
+        <div class="row">
+            <div class="container">
+                <h1 class="text-center text-primary"><strong>Achievements</strong></h1>
+                <hr>
+                <p class="wow fadeInUp">Since 2003, the team has set benchmarks for performance by Indian teams at FSAE competitions. Dealing with dearth of funds, technical setbacks due to absence of required technology and cultural differences, the team has been constantly evolving since. Apart from success at our competitions, we have received much accreditation here at home. Our cars have attracted much attention through all forms of media. We display our cars at prominent malls and auto exhibitions including those at Pragati Maidan and the Expo Mart, Noida, which is also in the best interest of our sponsors.</p>
+                <br>
+                <hr><br>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <div class="media wow fadeIn">
+                    <div class="col-xs-4">
+                        <img src="../assets/trophy%20(1).svg">
+                    </div>
+                    <div class="col-xs-8 text-center">
+                        <h2><strong>Best Team In ASIA</strong></h2>
+                        <br>
+                        <p>2016</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <div class="col-xs-8 text-center">
+                        <h2><strong>Overall Second - Asia</strong></h2>
+                        <br>
+                        <p>2014</p>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="../assets/trophy%20(2).svg">
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <div class="col-xs-4">
+                        <img src="../assets/award.svg">
+                    </div>
+                    <div class="col-xs-8 text-center">
+                        <h2><strong>Best Design - ASIA</strong></h2>
+                        <br>
+                        <p>2009</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <div class="col-xs-8 text-center">
+                        <h2><strong>Design - THIRD</strong></h2>
+                        <br>
+                        <p>2008</p>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="../assets/rank.svg">
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <div class="col-xs-4">
+                        <img src="../assets/trophy%20(4).svg">
+                    </div>
+                    <div class="col-xs-8 text-center">
+                        <h2><strong>Cost Analysis - SECOND</strong></h2>
+                        <br>
+                        <p>2006</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <div class="col-xs-8 text-center">
+                        <h2><strong>FISITA - Best Endeavour</strong></h2>
+                        <br>
+                        <p>2003</p>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="../assets/trophy%20(3).svg">
+                    </div>
+                </div>
 
-<footer>
-    <div class="footer col-xs-12">
-        <div class="container">
-            <div class="row up-footer-text">
-                <div class="col-md-6 hidden-sm hidden-xs">
-                    <h4>Connect with us on facebook</h4>
-                    <div class="fb-page" data-href="https://www.facebook.com/teamdefianzracing" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
-                </div>
-                <div class="col-md-6 hidden-sm hidden-xs">
-                    <h4>Disclaime</h4>
-                    <p>TEAM DEFIANZ Student Team reserves the right to make changes at any time to the disclaimer and content published on this website without prior notice.</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <br><hr><br>
+            <div class="container">
+                <div class="col-xs-12">
+                    <p class="wow fadeInLeft">
+                        The team participates at the Formula Student competition held at the Silverstone Circuit, London, UK in July every year. The competition see’s a  participation of over 150 teams from around 30 countries.
+                    </p>
+                    <hr>
+                    <p class="wow fadeInRight">
+                        In 2016, It was a batch of team members that were at a competition with grandeur that had never been experienced by any one of us. The pressure was immense. The determination to excel, even more so. With the gloomy London weather, formidable competition and a load of other unanticipated obstacles, the team put up it’s best performance ever and was ranked the Best Asian Team at the competition.  It was a learning experience like no other and the adulation and support the team received from industry leaders and other participating teams  was reason enough for us to go back next year, with a bigger bang!
+                    </p>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="container">
-            2017 All right Reserved | Team Defianz Student Team
+    </section>
+    <section id="five">
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="image text-center wow fadeInUp col-sm-6">
+                <img src="../assets/users-group.svg" style="max-height: 20rem">
+            </div>
+            <div class="call-to-action col-sm-6">
+                <br>
+                <br>
+                <h2 class="text-primary">CREW</h2>
+                <a href="../html/crew.html" target="ext" class="btn btn-default btn-lg wow flipInX">See Our Whole Crew</a>
+            </div>
+            <br>
+            <hr/>
+            <br>
         </div>
-    </div>
-</footer>
-<script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
-<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../bootstrap-3.3.7-dist/js/ie10-viewport-bug-workaround.js"></script>
-<script src="../bootstrap-3.3.7-dist/js/ie8-responsive-file-warning.js"></script>
-<script src="../bootstrap-3.3.7-dist/js/ie-emulation-modes-warning.js"></script>
-<script src="../bootstrap-3.3.7-dist/js/jquery.js"></script>
-<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-</body>
+    </aside>
+    </section>
+    <section id="last" style="margin-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h1 class="margin-top-0 wow fadeIn"><strong>PARTNERSHIP</strong></h1>
+                    <hr class="primary">
+                    <p class="wow fadeInUp">
+                        Sponsorships help us thrive. Many such generous associations with industry giants since 2003 have helped us get this far. Sanctioned resources, monetary or in-kind, are spent on designing, part machining, buying components, transportation  of vehicle, accommodation and travel of team members to the events. Your support will be used to make technological advancements to our design and perfect the epitome of undergraduate engineering that our car is. It will also nurture the talent and engineering skills which our team possesses and help them transform into capable leaders of tomorrow.
+                    </p>                </div>
+            </div>
+            <hr class="primary">
+            <div class="row">
+                <div class="container">
+                    <div class="col-xs-12">
+                        <div class=" col-xs-12 col-md-4 text-center wow fadeInLeft">
+                         <img src="../assets/ktm1.png" style="max-height: 20rem;">
+                        </div>
+                        <div class=" col-xs-12 col-md-4 text-center wow fadeInUp">
+                            <img src="../assets/22.png" style="max-height: 20rem;">
+                        </div>
+                        <div class=" col-xs-12 col-md-4 text-center wow fadeInRight">
+                            <img src="../assets/23.png" style="max-height: 20rem;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr class="primary">
+            <div class="text-center">
+            <a href="../html/partnership.html" target="ext" class="btn btn-default btn-lg wow flipInX">See Our Partner's</a>
+            </div>
+            </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="up-footer-text col-xs-12 col-sm-6">
+                    <div class="">
+                        <h4>Connect with us on facebook</h4>
+                        <div class="fb-page" data-href="https://www.facebook.com/teamdefianzracing" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+                    </div>
+                </div>
+                <div class="col-xs-6  text-right hidden-xs col-sm-6">
+                    <h4>Follow</h4>
+                    <ul class="list-inline">
+                      <li><a rel="nofollow" href="https://twitter.com/search?q=defianzracing" title="Twitter"><i class="icon-lg ion-social-twitter-outline wow fadeInLeft"></i>  TWITTER</a>&nbsp;</li>
+                      <li><a rel="nofollow" href="https://www.facebook.com/teamdefianzracing" title="Facebook"><i class="icon-lg ion-social-facebook-outline wow fadeInLeft"></i>  FACEBOOK</a>&nbsp;</li>
+                      <li><a rel="nofollow" href="https://www.instagram.com/defianz_racing/?hl=en" title="Instagram"><i class="icon-lg ion-social-instagram-outline wow fadeInLeft"></i>  INSTAGRAM</a></li>
+                    </ul>
+                    <hr class="primary">
+                    <h6><strong>            2017 All rights Reserved | Team Defianz
+                    </strong></h6>
+                    <p>
+                        Contact Us:
+                    </p>
+                    <h3>Postal Address :</h3>
+                    <hr>
+                    <p>University Postal Address Team Deﬁanz Racing</p>
+                    <p>Mechanical Engineering Department	</p>
+                    <p>Delhi Technological University	</p>
+                    <p>Shahbad Daulatpur, Bawana Road</p>
+                    <p>New Delhi-110042, India
+                        18</p>
+                    <h6>Created by Ravi<br>Special thanks to CSI-DTU</h6>
+                </div>
+            </div>
+            <br/>
+        </div>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/scripts.js"></script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+  </body>
 </html>
