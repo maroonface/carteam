@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="ravi" content="website for team defianz">
     <title>Home</title>
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home1.css" rel="stylesheet">
@@ -21,14 +21,29 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active " style="background-image: url('assets/20160703_114533.jpg')">
+                <div class="overlay">
+
+                </div>
             </div>
             <div class="item" style="background-image: url('assets/20160714_105715.jpg')">
+                <div class="overlay">
+
+                </div>
             </div>
             <div class="item" style="background-image: url('assets/20160716_141555.jpg')">
+                <div class="overlay">
+
+                </div>
             </div>
             <div class="item" style="background-image: url('assets/IMG_1698.JPG')">
+                <div class="overlay">
+
+                </div>
             </div>
             <div class="item" style="background-image: url('assets/IMG_1699.JPG')">
+                <div class="overlay">
+
+                </div>
             </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -60,7 +75,7 @@
             </ul>
         </div>
 </nav>
-<div class="sidebar text-center">
+<div class="sidebar text-center hidden-lg hidden-md hidden-sm">
     <a href="html/home.html">
         <ul class="list-unstyled">
             <li>V</li>
@@ -82,21 +97,61 @@
         </ul>
     </a>
 </div>
-<canvas class="col-xs-12 hidden-xs" id="canvas" style="position:absolute; top:0; left:0;"></canvas>
-<div id="buffer" style="display:none;"></div>
+<div class="right-sidebar hidden-xs">
+    <ul class="list-unstyled pull-right">
+        <li>                <a href="https://www.facebook.com/teamdefianzracing"><span><img src="assets/12_fb_logo.svg"></span></a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/defianz_racing/?hl=en"><span><img src="assets/12_instagram_logo.svg"></span></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/search?q=defianzracing"><span><img src="assets/12_twitter_logo.svg"></span></a>
+        </li>
+    </ul>
+</div>
+<div class="container-fluid block-content">
+    <div class="image-content col-sm-6 col-sm-offset-3">
+        <!--<div class="col-xs-12 col-sm-6">-->
+            <!--<div class="text-center">-->
+                <!--<img src="assets/logodr.jpg" style="height: 20rem; width: auto;">-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="col-xs-12">
+            <div class="text-center">
+                <img src="assets/dtulogo.jpg" style="height: 20rem; width: auto; border-radius: 10rem">
+            </div>
+        </div>
+    </div>
+    <div class="text-center col-xs-12 hidden-xs">
+        <h2>WELCOME</h2>
+        <h3>TO</h3>
+        <h1 class="">TEAM DEFIANZ</h1>
+        <br>
+        <br>
+    </div>
+    <a href="html/home.html" class="area col-xs-12 hidden-xs">
+        Visit Our Website
+    </a>
+    <a  class="area col-xs-12 hidden-lg hidden-md hidden-sm">
+        Team Defianz
+    </a>
+</div>
+
+<!--<canvas class="col-xs-12 hidden-xs" id="canvas" style="position:absolute; top:0; left:0;"></canvas>-->
+<!--<div id="buffer" style="display:none;"></div>-->
 <div class="navbar navbar-fixed-bottom " style="z-index: 500">
     <div class="card-row container-fluid">
         <div class="container">
             <div class="card col-sm-6 col-xs-12 text-center">
                 <p>TEAM DEFIANZ RACING WEBSITE</p>
-                <p class="hidden-xs"><a href="html/contact.html">Contact us</a></p>
             </div>
             <div class="col-sm-6 col-xs-12 text-center hidden-xs">
-                <a href="https://www.facebook.com/teamdefianzracing"><span><img src="assets/12_fb_logo.svg"></span></a>
-                <a href="https://www.instagram.com/defianz_racing/?hl=en"><span><img src="assets/12_instagram_logo.svg"></span></a>
-                <a href="https://twitter.com/search?q=defianzracing"><span><img src="assets/12_twitter_logo.svg"></span></a>
+                <p class="hidden-xs"><a href="html/contact.html">Contact us</a></p>
+                <!--<a href="https://www.facebook.com/teamdefianzracing"><span><img src="assets/12_fb_logo.svg"></span></a>-->
+                <!--<a href="https://www.instagram.com/defianz_racing/?hl=en"><span><img src="assets/12_instagram_logo.svg"></span></a>-->
+                <!--<a href="https://twitter.com/search?q=defianzracing"><span><img src="assets/12_twitter_logo.svg"></span></a>-->
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 hidden-xs">
             <div class="col-xs-12 col-sm-6 text-center">
                 <p><strong><span class="text-muted">Designed & Developed by Ravi Kumar Meena</span></strong></p>
             </div>
@@ -108,7 +163,7 @@
     </div>
 </div>
 
-    <script src="js/move.js" ></script>
+    <!--<script src="js/move.js" ></script>-->
 <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
 <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
