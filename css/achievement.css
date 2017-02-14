@@ -1,6 +1,6 @@
 body {
   background-color: #262626;
-  transition: 2s linear; }
+  transition: 0.5s linear; }
 
 .car-img img {
   height: 20rem;
